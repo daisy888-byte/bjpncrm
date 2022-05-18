@@ -14,7 +14,7 @@ import java.util.Map;
 
 @Controller
 public class IndexController {
-    /*@RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")
+   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")
     public @ResponseBody Object testpy6(){
         FileInputStream fis=null;
         try {
@@ -41,7 +41,7 @@ public class IndexController {
         return "看打印内容";
     }
 
-
+  /*测试备注1
     @RequestMapping(value = "/testpy4",produces="text/plain;charset=utf-8")
     public @ResponseBody Object testpy4(){
         Map<String,Object> map=new HashMap<>();
