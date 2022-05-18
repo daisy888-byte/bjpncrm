@@ -15,8 +15,8 @@ import java.util.Map;
 @Controller
 public class IndexController {
 
-   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//v1.3  3333
-    public @ResponseBody Object testpy6(){ //v1.3 3333
+   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//v1.3  444
+    public @ResponseBody Object testpy6(){ //v1.3 444
         FileInputStream fis=null;
         try {
             fis= new FileInputStream("/Users/apple/PycharmProjects/myPythonMay/a_1.txt");
