@@ -38,7 +38,7 @@ public class IndexController {
             }
         }
 
-        return "看打印内容";
+        return "看打印内容";//7777777
     }
 
   /*测试备注1
