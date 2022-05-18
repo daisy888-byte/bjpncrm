@@ -14,8 +14,9 @@ import java.util.Map;
 
 @Controller
 public class IndexController {
+
    @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//这里添加备注了testpy6
-    public @ResponseBody Object testpy6(){
+    public @ResponseBody Object testpy6(){ //测试io读文件，打印
         FileInputStream fis=null;
         try {
             fis= new FileInputStream("/Users/apple/PycharmProjects/myPythonMay/a_1.txt");
