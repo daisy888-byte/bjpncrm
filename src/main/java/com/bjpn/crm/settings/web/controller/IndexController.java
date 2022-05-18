@@ -14,7 +14,7 @@ import java.util.Map;
 
 @Controller
 public class IndexController {
-   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//这里添加备注了。。。测试修改下
+   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//这里添加备注了testpy6
     public @ResponseBody Object testpy6(){
         FileInputStream fis=null;
         try {
