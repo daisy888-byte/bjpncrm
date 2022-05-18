@@ -15,8 +15,8 @@ import java.util.Map;
 @Controller
 public class IndexController {
 
-   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//读文件，并且打印
-    public @ResponseBody Object testpy6(){ //读到字节数组
+   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//333
+    public @ResponseBody Object testpy6(){ //333
         FileInputStream fis=null;
         try {
             fis= new FileInputStream("/Users/apple/PycharmProjects/myPythonMay/a_1.txt");
