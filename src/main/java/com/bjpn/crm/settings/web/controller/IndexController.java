@@ -14,7 +14,7 @@ import java.util.Map;
 
 @Controller
 public class IndexController {
-    @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")
+    /*@RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")
     public @ResponseBody Object testpy6(){
         FileInputStream fis=null;
         try {
@@ -84,7 +84,7 @@ public class IndexController {
     @RequestMapping("/testpy1")
     public  @ResponseBody Object testpy1(){
         return "hello,dear my python";
-    }
+    }*/
 
     @RequestMapping("/")
     public  String index(){
