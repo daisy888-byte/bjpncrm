@@ -13,12 +13,10 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Controller
+public class IndexController {//v1.4after rollback123
 
-public class IndexController {//v after rollback
-
-   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//v after rollback
-    public @ResponseBody Object testpy6(){ 
-
+   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//v1.4after rollback123123
+    public @ResponseBody Object testpy6(){ //v1.4after rollback123
         FileInputStream fis=null;
         try {
             fis= new FileInputStream("/Users/apple/PycharmProjects/myPythonMay/a_1.txt");
