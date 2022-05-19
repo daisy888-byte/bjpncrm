@@ -13,7 +13,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 @Controller
-public class IndexController {
+public class IndexController {//v1.4
 
    @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//55
     public @ResponseBody Object testpy6(){ //55
