@@ -14,10 +14,10 @@ import java.util.Map;
 
 @Controller
 
-public class IndexController {//v1.8
+public class IndexController {//v1.9
 
-   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//v1.8
-    public @ResponseBody Object testpy6(){ //v1.8
+   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//v1.9
+    public @ResponseBody Object testpy6(){ //v1.9
 
         FileInputStream fis=null;
         try {
