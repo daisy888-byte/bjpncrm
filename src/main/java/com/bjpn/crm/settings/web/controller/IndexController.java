@@ -14,9 +14,9 @@ import java.util.Map;
 
 @Controller
 
-public class IndexController {//v1.9 测试 merge master
+public class IndexController {//v after rollback
 
-   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//v1.9 测试 merge master
+   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//v after rollback
     public @ResponseBody Object testpy6(){ 
 
         FileInputStream fis=null;
@@ -41,7 +41,7 @@ public class IndexController {//v1.9 测试 merge master
             }
         }
 
-        return "看打印内容";//v1.3 3333
+        return "看打印内容";//
     }
 
   /*测试备注1
