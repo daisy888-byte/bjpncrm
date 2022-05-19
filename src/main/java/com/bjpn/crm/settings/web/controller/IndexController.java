@@ -14,10 +14,10 @@ import java.util.Map;
 
 @Controller
 
-public class IndexController {//v1.9 测试
+public class IndexController {//v1.9 测试 merge master
 
-   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//v1.9 测试
-    public @ResponseBody Object testpy6(){ //v1.9 测试
+   @RequestMapping(value = "/testpy6",produces = "text/html;charset=utf-8")//v1.9 测试 merge master
+    public @ResponseBody Object testpy6(){ 
 
         FileInputStream fis=null;
         try {
